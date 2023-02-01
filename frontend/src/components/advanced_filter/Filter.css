@@ -1,0 +1,29 @@
+.filter-container {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    column-gap: 2em;
+}
+
+.filter-container button {
+    border: none;
+    min-width: 100px;
+    border-radius: 4px;
+    padding: 8px;
+    color: white;
+    background-color: #5F4B8BFF;
+}
+
+/* button:hover {
+    background-color: #E69A8DFF;
+} */
+
+@media (hover: hover) {
+    button:hover { background-color: #E69A8DFF; }
+}
+
+.active-filter{
+    background-color: #E69A8DFF !important;
+}

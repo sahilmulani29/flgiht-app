@@ -1,0 +1,42 @@
+.flight-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #343330;
+    border-radius: 4px;
+    column-gap: 10px;
+}
+
+.flight-container:hover {
+    box-shadow: 2px 0.5px 2px 1px rgba(52, 51, 48, 0.2);
+}
+
+.service-item {
+    flex: 0 1 20%;
+    align-self: center;
+}
+
+.data-item {
+    flex: 1 0 35%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.book-btn {
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    padding: 5px;
+    color: white;
+    background-color: #E69A8DFF;
+    /* background-color: #5F4B8BFF; */
+}
+
+.book-btn:hover {
+    background-color: #5F4B8BFF;
+    /* background-color: #E69A8DFF; */
+}

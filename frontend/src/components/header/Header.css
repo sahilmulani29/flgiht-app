@@ -1,0 +1,10 @@
+.headercover {
+	width: 100%;
+	background: #5F4B8BFF;
+	text-align: center;
+}
+
+.headercover h2 {
+	color: #E69A8DFF;
+	padding: 20px;
+}
