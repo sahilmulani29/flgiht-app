@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { AppContext } from "../../context/app-context";
 import "./Filter.css";
+import React from "react";
 
 export const Filter = (props: any) => {
 	const { onAdvanceFilterSelect } = props;

@@ -1,5 +1,7 @@
 import { FlightsType } from "../../constant/types";
 import "./Flights.css";
+import React from "react";
+
 export const Flights = (props: any) => {
 	const { service, flightsData } = props;
 	const getCurrencyFormat = (amt: number, currCode: string) => {

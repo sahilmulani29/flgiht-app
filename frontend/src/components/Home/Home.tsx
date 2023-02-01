@@ -7,6 +7,7 @@ import { SearchBar } from "../search-bar/SearchBar";
 import { Flights } from "../flights/Flights";
 import "./home.module.css";
 import { Filter } from "../advanced_filter/Filter";
+import React from "react";
 
 export const Home = () => {
 	const appCtx = useContext(AppContext);
@@ -27,6 +28,7 @@ export const Home = () => {
 	const _renderHeader = () => {
 		return <Header />;
 	};
+	
 	const onAdvanceFilterSelect = (selectedFilter: string) => {
 		const filters = appCtx.rootState.appliedFilters;
 		if (filters?.advancedFilter === selectedFilter) {

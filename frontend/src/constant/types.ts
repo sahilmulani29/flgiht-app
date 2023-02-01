@@ -4,7 +4,7 @@ export interface Price {
 }
 
 export interface FlightsType {
-    id: string
+    id: number
     origin: string,
     destination: string,
     departureDate: string,

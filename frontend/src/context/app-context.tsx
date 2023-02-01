@@ -1,12 +1,13 @@
 import { createContext, useState } from "react";
 import { RootContext } from "../constant/types";
+import React from "react";
 
 export const initialContext = {
-    flights: [],
-    filteredFlights: new Map(),
-    errors: {},
-    isLoading: false,
-    appliedFilter: {},
+  flights: [],
+  filteredFlights: new Map(),
+  errors: {},
+  isLoading: false,
+  appliedFilter: {},
 };
 
 export const AppContext = createContext<{
@@ -14,7 +15,7 @@ export const AppContext = createContext<{
   setRootStateHandler: (data: RootContext) => any;
 }>({
   rootState: initialContext,
-  setRootStateHandler: () => {},
+  setRootStateHandler: () => { },
 });
 
 export const AppContextProvider = (props: any) => {

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { cities } from "../../constant/data-constant";
 import "./SearchBar.css";
+import React from "react";
 
 export const SearchBar = (props: any) => {
 	const { onSearchClick } = props;

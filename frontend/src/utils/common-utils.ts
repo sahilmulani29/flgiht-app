@@ -29,7 +29,7 @@ export const getfilteredData = (filterData: any, filters: Filters, originalData:
     }
 
     if (filters.advancedFilter !== 'Best') {
-        for (let key of filterData.keys()) {
+        for (const key of filterData.keys()) {
             const data = filterData.get(key);
             filterData.set(key, data.filter((item: any) => {
                 if (filters.advancedFilter === 'Cheapest') {

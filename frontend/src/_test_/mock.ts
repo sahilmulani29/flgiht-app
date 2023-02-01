@@ -1,4 +1,6 @@
-[
+import { Filters, FlightsType, RootContext } from "../constant/types"
+
+export const APIResponse: FlightsType[] = [
     {
         "id": 1,
         "origin": "Delhi",
@@ -1175,4 +1177,105 @@
         "time": 2 
     }
 ]
+
+export const filteredFlights: any = [
+    [
+        "Air India",
+        [
+            {
+                "id": 1,
+                "origin": "Delhi",
+                "destination": "Berlin",
+                "departureDate": "2023-02-12",
+                "returnDate": "2023-02-12",
+                "seatAvailability": "15",
+                "price": {
+                    "amount": 50,
+                    "currency": "EUR"
+                },
+                "service": "Air India",
+                "time": "6"
+            },
+            {
+                "id": 2,
+                "origin": "Delhi",
+                "destination": "Berlin",
+                "departureDate": "2023-02-12",
+                "returnDate": "2023-02-12",
+                "seatAvailability": "1",
+                "price": {
+                    "amount": 100,
+                    "currency": "EUR"
+                },
+                "service": "Air India",
+                "time": 2
+            }
+        ]
+    ],
+    [
+        "Emirates",
+        [
+            {
+                "id": 3,
+                "origin": "Delhi",
+                "destination": "Berlin",
+                "departureDate": "2023-02-12",
+                "returnDate": "2023-02-12",
+                "seatAvailability": "5",
+                "price": {
+                    "amount": 200,
+                    "currency": "EUR"
+                },
+                "service": "Emirates",
+                "time": 2
+            }
+        ]
+    ],
+    [
+        "Etihad Airways",
+        [
+            {
+                "id": 4,
+                "origin": "Delhi",
+                "destination": "Berlin",
+                "departureDate": "2023-02-12",
+                "returnDate": "2023-02-12",
+                "seatAvailability": "3",
+                "price": {
+                    "amount": 300,
+                    "currency": "EUR"
+                },
+                "service": "Etihad Airways",
+                "time": 2
+            }
+        ]
+    ]
+]
+
+export const appliedFilters: Filters = {
+    source: '',
+    destination: '',
+    departDate: '',
+    seats: 1,
+    advancedFilter: ''
+}
+
+export const mockRootState: RootContext = {
+    flights: APIResponse,
+    filteredFlights: filteredFlights,
+    error: {
+        isError: false,
+        message: ''
+    },
+    isLoading: false,
+    appliedFilters: appliedFilters,
+}
+
+
+export const mockFetch = (response : any) =>
+    jest.fn(() =>
+        Promise.resolve({
+            json: () => Promise.resolve(response)
+        })
+    ) as jest.Mock
 
