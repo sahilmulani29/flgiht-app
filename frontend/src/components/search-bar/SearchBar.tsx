@@ -45,6 +45,7 @@ export const SearchBar = (props: any) => {
 				<div className="row">
 					<span>From</span>
 					<select
+						aria-label={'from-city'}
 						required
 						value={source}
 						onChange={(evt) => {
@@ -61,6 +62,7 @@ export const SearchBar = (props: any) => {
 				<div className="row">
 					<span>To</span>
 					<select
+						aria-label={'to-city'}
 						required
 						value={destination}
 						onChange={(evt) => {
@@ -75,10 +77,11 @@ export const SearchBar = (props: any) => {
 					</select>
 				</div>
 				<div className="row">
-					<span>Depart</span>
+					<span>Depart <span className="small-text">(Data avaiable for date : 12/2/23)</span></span>
 					<input
+						aria-label={'depart'}
 						required
-						min={"2023-01-28"}
+						min={new Date().toString()}
 						value={departDate}
 						type="date"
 						onChange={(evt) => {
@@ -89,6 +92,7 @@ export const SearchBar = (props: any) => {
 				<div className="row">
 					<span>Seats</span>
 					<input
+						aria-label={'seats'}
 						value={seats}
 						type="number"
 						onChange={(evt) => {
@@ -97,7 +101,7 @@ export const SearchBar = (props: any) => {
 					/>
 				</div>
 				<div className="row">
-					<button className="submit-btn" type="submit">
+					<button aria-label={'search-btn'} className="submit-btn" type="submit">
 						Search
 					</button>
 				</div>

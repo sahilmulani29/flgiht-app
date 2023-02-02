@@ -12,8 +12,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 2,
@@ -26,8 +26,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 3,
@@ -41,7 +41,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 4,
@@ -54,9 +54,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    },   
+        "service": "Singapore",
+        "time": 2
+    },
     {
         "id": 5,
         "origin": "Delhi",
@@ -68,8 +68,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 6,
@@ -82,8 +82,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 7,
@@ -97,7 +97,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 8,
@@ -110,9 +110,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    },   
+        "service": "Singapore",
+        "time": 2
+    },
     {
         "id": 9,
         "origin": "Delhi",
@@ -124,8 +124,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 10,
@@ -138,8 +138,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 11,
@@ -153,7 +153,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 12,
@@ -166,9 +166,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    },   
+        "service": "Singapore",
+        "time": 2
+    },
     {
         "id": 13,
         "origin": "Delhi",
@@ -180,8 +180,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 14,
@@ -194,8 +194,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 15,
@@ -209,7 +209,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 16,
@@ -222,9 +222,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    }, 
+        "service": "Singapore",
+        "time": 2
+    },
 
 
 
@@ -249,8 +249,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 18,
@@ -263,8 +263,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 19,
@@ -278,7 +278,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 20,
@@ -291,9 +291,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    },   
+        "service": "Singapore",
+        "time": 2
+    },
     {
         "id": 21,
         "origin": "New York",
@@ -305,8 +305,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 22,
@@ -319,8 +319,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 23,
@@ -334,7 +334,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 24,
@@ -347,9 +347,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    },   
+        "service": "Singapore",
+        "time": 2
+    },
     {
         "id": 25,
         "origin": "New York",
@@ -361,8 +361,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 26,
@@ -375,8 +375,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 27,
@@ -390,7 +390,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 28,
@@ -403,9 +403,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    },   
+        "service": "Singapore",
+        "time": 2
+    },
     {
         "id": 29,
         "origin": "New York",
@@ -417,8 +417,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 30,
@@ -431,8 +431,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 31,
@@ -446,7 +446,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 32,
@@ -459,10 +459,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
+        "service": "Singapore",
+        "time": 2
     },
-    
 
 
 
@@ -476,7 +475,8 @@ export const APIResponse: FlightsType[] = [
 
 
 
-   {
+
+    {
         "id": 33,
         "origin": "Berlin",
         "destination": "Delhi",
@@ -487,8 +487,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 34,
@@ -501,8 +501,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 35,
@@ -516,7 +516,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 36,
@@ -529,9 +529,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    },   
+        "service": "Singapore",
+        "time": 2
+    },
     {
         "id": 37,
         "origin": "Berlin",
@@ -543,8 +543,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 38,
@@ -557,8 +557,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 39,
@@ -572,7 +572,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 40,
@@ -585,9 +585,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    },   
+        "service": "Singapore",
+        "time": 2
+    },
     {
         "id": 41,
         "origin": "Berlin",
@@ -599,8 +599,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 42,
@@ -613,8 +613,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 43,
@@ -628,7 +628,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 44,
@@ -641,9 +641,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    },   
+        "service": "Singapore",
+        "time": 2
+    },
     {
         "id": 45,
         "origin": "Berlin",
@@ -655,8 +655,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 46,
@@ -669,8 +669,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 47,
@@ -684,7 +684,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 48,
@@ -697,10 +697,10 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
+        "service": "Singapore",
+        "time": 2
     },
-        
+
 
 
 
@@ -725,8 +725,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 50,
@@ -739,8 +739,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 51,
@@ -754,7 +754,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 52,
@@ -767,9 +767,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    },   
+        "service": "Singapore",
+        "time": 2
+    },
     {
         "id": 53,
         "origin": "London",
@@ -781,8 +781,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 54,
@@ -795,8 +795,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 55,
@@ -810,7 +810,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 56,
@@ -823,9 +823,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    },   
+        "service": "Singapore",
+        "time": 2
+    },
     {
         "id": 57,
         "origin": "London",
@@ -837,8 +837,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 58,
@@ -851,8 +851,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 59,
@@ -866,7 +866,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 60,
@@ -879,9 +879,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    },   
+        "service": "Singapore",
+        "time": 2
+    },
     {
         "id": 61,
         "origin": "London",
@@ -893,8 +893,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 62,
@@ -907,8 +907,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 63,
@@ -922,7 +922,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 64,
@@ -935,10 +935,10 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
+        "service": "Singapore",
+        "time": 2
     },
-            
+
 
 
 
@@ -963,8 +963,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 66,
@@ -977,8 +977,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 67,
@@ -992,7 +992,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 68,
@@ -1005,9 +1005,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    },   
+        "service": "Singapore",
+        "time": 2
+    },
     {
         "id": 69,
         "origin": "Sedney",
@@ -1019,8 +1019,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 70,
@@ -1033,8 +1033,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 71,
@@ -1048,7 +1048,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 72,
@@ -1061,9 +1061,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    },   
+        "service": "Singapore",
+        "time": 2
+    },
     {
         "id": 73,
         "origin": "Sedney",
@@ -1075,8 +1075,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 74,
@@ -1089,8 +1089,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 75,
@@ -1104,7 +1104,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 76,
@@ -1117,9 +1117,9 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
-    },   
+        "service": "Singapore",
+        "time": 2
+    },
     {
         "id": 77,
         "origin": "Sedney",
@@ -1131,8 +1131,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 50,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 6 
+        "service": "India",
+        "time": 6
     },
     {
         "id": 78,
@@ -1145,8 +1145,8 @@ export const APIResponse: FlightsType[] = [
             "amount": 100,
             "currency": "EUR"
         },
-        "service": "Air India",
-        "time": 2 
+        "service": "India",
+        "time": 2
     },
     {
         "id": 79,
@@ -1160,7 +1160,7 @@ export const APIResponse: FlightsType[] = [
             "currency": "EUR"
         },
         "service": "Emirates",
-        "time": 2 
+        "time": 2
     },
     {
         "id": 80,
@@ -1173,91 +1173,103 @@ export const APIResponse: FlightsType[] = [
             "amount": 300,
             "currency": "EUR"
         },
-        "service": "Etihad Airways",
-        "time": 2 
+        "service": "Singapore",
+        "time": 2
     }
 ]
 
-export const filteredFlights: any = [
-    [
-        "Air India",
-        [
-            {
-                "id": 1,
-                "origin": "Delhi",
-                "destination": "Berlin",
-                "departureDate": "2023-02-12",
-                "returnDate": "2023-02-12",
-                "seatAvailability": "15",
-                "price": {
-                    "amount": 50,
-                    "currency": "EUR"
-                },
-                "service": "Air India",
-                "time": "6"
-            },
-            {
-                "id": 2,
-                "origin": "Delhi",
-                "destination": "Berlin",
-                "departureDate": "2023-02-12",
-                "returnDate": "2023-02-12",
-                "seatAvailability": "1",
-                "price": {
-                    "amount": 100,
-                    "currency": "EUR"
-                },
-                "service": "Air India",
-                "time": 2
-            }
-        ]
-    ],
-    [
-        "Emirates",
-        [
-            {
-                "id": 3,
-                "origin": "Delhi",
-                "destination": "Berlin",
-                "departureDate": "2023-02-12",
-                "returnDate": "2023-02-12",
-                "seatAvailability": "5",
-                "price": {
-                    "amount": 200,
-                    "currency": "EUR"
-                },
-                "service": "Emirates",
-                "time": 2
-            }
-        ]
-    ],
-    [
-        "Etihad Airways",
-        [
-            {
-                "id": 4,
-                "origin": "Delhi",
-                "destination": "Berlin",
-                "departureDate": "2023-02-12",
-                "returnDate": "2023-02-12",
-                "seatAvailability": "3",
-                "price": {
-                    "amount": 300,
-                    "currency": "EUR"
-                },
-                "service": "Etihad Airways",
-                "time": 2
-            }
-        ]
-    ]
-]
+export const filteredFlights: any = new Map(
+    JSON.parse(
+        JSON.stringify(Array.from([
+            [
+                "India",
+                [
+                    {
+                        "id": 1,
+                        "origin": "Delhi",
+                        "destination": "Berlin",
+                        "departureDate": "2023-02-12",
+                        "returnDate": "2023-02-12",
+                        "seatAvailability": "15",
+                        "price": {
+                            "amount": 50,
+                            "currency": "EUR"
+                        },
+                        "service": "India",
+                        "time": "6"
+                    },
+                    {
+                        "id": 2,
+                        "origin": "Delhi",
+                        "destination": "Berlin",
+                        "departureDate": "2023-02-12",
+                        "returnDate": "2023-02-12",
+                        "seatAvailability": "1",
+                        "price": {
+                            "amount": 100,
+                            "currency": "EUR"
+                        },
+                        "service": "India",
+                        "time": 2
+                    }
+                ]
+            ],
+            [
+                "Emirates",
+                [
+                    {
+                        "id": 3,
+                        "origin": "Delhi",
+                        "destination": "Berlin",
+                        "departureDate": "2023-02-12",
+                        "returnDate": "2023-02-12",
+                        "seatAvailability": "5",
+                        "price": {
+                            "amount": 200,
+                            "currency": "EUR"
+                        },
+                        "service": "Emirates",
+                        "time": 2
+                    }
+                ]
+            ],
+            [
+                "Singapore",
+                [
+                    {
+                        "id": 4,
+                        "origin": "Delhi",
+                        "destination": "Berlin",
+                        "departureDate": "2023-02-12",
+                        "returnDate": "2023-02-12",
+                        "seatAvailability": "3",
+                        "price": {
+                            "amount": 300,
+                            "currency": "EUR"
+                        },
+                        "service": "Singapore",
+                        "time": 2
+                    }
+                ]
+            ]
+        ]))
+    )
+);
 
 export const appliedFilters: Filters = {
     source: '',
     destination: '',
     departDate: '',
+    seats: 75,
+    advancedFilter: 'Fastest'
+}
+
+export const appliedFiltersCitySame: Filters = {
+    source: 'Delhi',
+    destination: 'Delhi',
+    departDate: '',
     seats: 1,
-    advancedFilter: ''
+    advancedFilter: 'Best'
 }
 
 export const mockRootState: RootContext = {
@@ -1272,7 +1284,7 @@ export const mockRootState: RootContext = {
 }
 
 
-export const mockFetch = (response : any) =>
+export const mockFetch = (response: any) =>
     jest.fn(() =>
         Promise.resolve({
             json: () => Promise.resolve(response)

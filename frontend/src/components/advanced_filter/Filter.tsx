@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { AppContext } from "../../context/app-context";
 import "./Filter.css";
 import React from "react";
+import { AdvancedFilter } from "../../constant/data-constant";
 
 export const Filter = (props: any) => {
 	const { onAdvanceFilterSelect } = props;
@@ -18,33 +19,21 @@ export const Filter = (props: any) => {
 			{
 				flights?.size > 0 ?
 					<div className="filter-container" >
-						<button
-							className={selectedFilter === 'Best' ? 'active-filter' : ''}
-							type="button"
-							onClick={() => {
-								onFilterClick("Best");
-							}}
-						>
-							Best
-						</button>
-						<button
-							className={selectedFilter === 'Cheapest' ? 'active-filter' : ''}
-							type="button"
-							onClick={() => {
-								onFilterClick("Cheapest");
-							}}
-						>
-							Cheapest
-						</button>
-						<button
-							className={selectedFilter === 'Fastest' ? 'active-filter' : ''}
-							type="button"
-							onClick={() => {
-								onFilterClick("Fastest");
-							}}
-						>
-							Fastest
-						</button>
+						{
+							AdvancedFilter.map((filter=>(
+								<button
+									key={filter}
+									aria-label={filter}
+									className={selectedFilter === filter ? 'active-filter' : ''}
+									type="button"
+									onClick={() => {
+										onFilterClick(filter);
+									}}
+								>
+									{filter}
+								</button>
+							)))
+						}
 					</div >
 				:
 					<></>

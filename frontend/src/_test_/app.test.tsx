@@ -2,12 +2,10 @@ import App from '../App'
 import { AppContext, initialContext } from '../context/app-context'
 import React from 'react'
 import { APIResponse, mockFetch, mockRootState } from './mock'
-import * as useFetch from "../hooks/useFetch";
 import renderer from 'react-test-renderer'
 import { RootContext } from '../constant/types';
 
 
-//const hook = jest.spyOn(useFetch, 'default')
 // To mock fetch
 global.fetch = mockFetch(APIResponse)
 
@@ -28,13 +26,14 @@ const mockAppComponent = (rootState: RootContext) => {
 describe('App component test cases', () => {
 
     test("Should call useFetch -> API success", () => {
-        renderer.create(mockAppComponent(mockRootState))
-        //expect(useFetch).toHaveBeenCalled()
+        renderer.create(mockAppComponent({...mockRootState, error: {
+            isError: false,
+            message: ''
+        }}))
     })
 
     test('Should call useFetch -> Loading state', () => {
         renderer.create(mockAppComponent({ ...initialContext, isLoading: true}))
-        //expect(useFetch).toHaveBeenCalled()
     })
 
     test('Should call useFetch -> API fail', () => {
@@ -44,12 +43,6 @@ describe('App component test cases', () => {
                 message: 'Something went wrong'
             }
         }))
-        //expect(useFetch).toHaveBeenCalled()
-    })
-
-    test("Should call useFetch -> API success", () => {
-        renderer.create(mockAppComponent(mockRootState))
-        //expect(useFetch).toHaveBeenCalled()
     })
 
 })

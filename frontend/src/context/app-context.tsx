@@ -15,7 +15,7 @@ export const AppContext = createContext<{
   setRootStateHandler: (data: RootContext) => any;
 }>({
   rootState: initialContext,
-  setRootStateHandler: () => { },
+  setRootStateHandler: () => { }, // tslint:disable-next-line:no-empty
 });
 
 export const AppContextProvider = (props: any) => {

@@ -8,28 +8,39 @@ export const Flights = (props: any) => {
 		const options = { style: "currency", currency: currCode };
 		return new Intl.NumberFormat("de-DE", options).format(amt);
 	};
+
+	const _renderServiceIcons = (service: string) => {
+		return (
+			<img src={require(`../../${service}.png`)} alt="image" />
+		)
+	}
+
 	return (
 		<>
 			{flightsData.length > 0 ? (
 				<div className="flight-container">
-					<h3 className="service-item">{service}</h3>
-					{flightsData.map((data: FlightsType) => (
-						<div key={data.id} className="data-item">
-							<div>
-								{data.origin} &nbsp;
-								<span style={{ fontSize: "1.5em" }}>&#8594;</span>
-								&nbsp; {data.destination}
+					<div>
+						{_renderServiceIcons(service)}
+					</div>
+					<div className="data-container">
+						{flightsData.map((data: FlightsType) => (
+							<div key={data.id} className="data-item">
+								<div>
+									{data.origin} &nbsp;
+									<span style={{ fontSize: "1.5em" }}>&#8594;</span>
+									&nbsp; {data.destination}
+								</div>
+								<div>{`Time: ${data.time}:00 hours`}</div>
+								<div>{`Price: ${getCurrencyFormat(
+									data.price.amount,
+									data.price.currency
+								)} `}</div>
+								<div>
+									<button className="book-btn">Book</button>
+								</div>
 							</div>
-							<div>{`Time: ${data.time}:00 hours`}</div>
-							<div>{`Price: ${getCurrencyFormat(
-								data.price.amount,
-								data.price.currency
-							)} `}</div>
-							<div>
-								<button className="book-btn">Book</button>
-							</div>
-						</div>
-					))}
+						))}
+					</div>
 				</div>
 			) : (
 				<></>

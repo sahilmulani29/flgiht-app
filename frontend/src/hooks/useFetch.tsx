@@ -1,36 +1,37 @@
 import { AppContext } from './../context/app-context';
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect} from "react";
 import { API_POINT } from '../constant/key-constant';
+import { get } from '../api/request';
 
 const useFetch = () => {
 
     const appCtx = useContext(AppContext);
 
     useEffect(() => {
-            appCtx.setRootStateHandler({ ...appCtx.rootState, isLoading: true })
-            console.log('hdf')
-            fetch(API_POINT).then(res=>res.json())
-            .then(res => {
+        async function fetchData() {
+            console.log('sdasfdsfsd')
+            const response = await get(API_POINT)
+            if(response.success) {
                 appCtx.setRootStateHandler({
-                    isLoading: false,
                     error: {
                         isError: false,
                         message: ''
                     },
-                    flights: res,
-                    filteredFlights: res
+                    flights: response.data,
+                    filteredFlights: response.data
                 })
-            })
-                .catch(error => {
-                    appCtx.setRootStateHandler({
-                        ...appCtx.rootState,
-                        isLoading: false,
-                        error: {
-                            isError: true,
-                            message: 'Something went wrong'
-                        },
-                    })
+            } else {
+                appCtx.setRootStateHandler({
+                    ...appCtx.rootState,
+                    error: {
+                        isError: true,
+                        message: 'Something went wrong'
+                    },
                 })
+            }        
+        }
+
+        fetchData();
     }, [])
 
 }

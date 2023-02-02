@@ -40,6 +40,10 @@ select:focus {
     padding-left: 10px;   
 }
 
+.small-text{
+    font-size: 12px !important;
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .search-container {
         display: flex;

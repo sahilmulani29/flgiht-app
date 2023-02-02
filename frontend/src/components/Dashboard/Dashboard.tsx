@@ -2,31 +2,32 @@ import { useContext } from "react";
 import { Filters, FlightsType } from "../../constant/types";
 import { AppContext } from "../../context/app-context";
 import { getSearchResult } from "../../utils/common-utils";
-import { Header } from "../header/Header";
 import { SearchBar } from "../search-bar/SearchBar";
 import { Flights } from "../flights/Flights";
-import "./home.module.css";
+import "./Dashboard.css";
 import { Filter } from "../advanced_filter/Filter";
 import React from "react";
+import { Container } from "../common/Container/Container";
+import { Spinner } from "../common/Spinner/Spinner";
 
 export const Home = () => {
 	const appCtx = useContext(AppContext);
 
 	const onFilterData = (filters: Filters) => {
 		const searchResult = getSearchResult(filters, appCtx.rootState.flights);
-		appCtx.setRootStateHandler({
-			...appCtx.rootState,
-			filteredFlights: searchResult as Map<string, FlightsType[]>,
-			appliedFilters: filters,
-		});
+		setTimeout(()=>{
+			appCtx.setRootStateHandler({
+				...appCtx.rootState,
+				filteredFlights: searchResult as Map<string, FlightsType[]>,
+				appliedFilters: filters,
+				isLoading: false
+			});
+		},1500)
 	};
 
 	const onSearchClick = (filters: Filters) => {
+		appCtx.setRootStateHandler({...appCtx.rootState, isLoading: true})
 		onFilterData({ ...filters, advancedFilter: "Best" });
-	};
-
-	const _renderHeader = () => {
-		return <Header />;
 	};
 	
 	const onAdvanceFilterSelect = (selectedFilter: string) => {
@@ -34,6 +35,7 @@ export const Home = () => {
 		if (filters?.advancedFilter === selectedFilter) {
 			return;
 		}
+		appCtx.setRootStateHandler({...appCtx.rootState, isLoading: true})
 		onFilterData({ ...(filters as Filters), advancedFilter: selectedFilter });
 	};
 
@@ -68,10 +70,25 @@ export const Home = () => {
 	return (
 		<>
 			<div className="home-container">
-				{_renderHeader()}
-				{_renderSearchBar()}
-				{_renderAdvanceFilter()}
-				{_renderFlights()}
+				<Container>
+					{_renderSearchBar()}
+					{
+						!appCtx.rootState.isLoading ? 
+							appCtx.rootState.filteredFlights.size > 0 ? 
+								<>
+									{_renderAdvanceFilter()}
+									{_renderFlights()}
+								</> 
+							:
+								appCtx.rootState.appliedFilters?.source ?
+									<div className="error-container">
+										<h1>Data not found</h1>
+									</div>
+								:
+									<></>
+						: <Spinner/>}
+					{}
+				</Container>
 			</div>
 		</>
 	);

@@ -1,0 +1,10 @@
+.home-container {
+    height: 100%;
+    width: 100%;
+}
+
+.error-container{
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+}

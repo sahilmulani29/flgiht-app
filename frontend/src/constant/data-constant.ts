@@ -8,7 +8,13 @@ export const cities = [
 ]
 
 export const services = [
-    "Air India",
+    "India",
     "Emirates",
-    "Etihad Airways",
+    "Singapore",
+]
+
+export const AdvancedFilter = [
+    'Best',
+    'Cheapest',
+    'Fastest'
 ]
